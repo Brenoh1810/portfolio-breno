@@ -2,10 +2,9 @@
 
 Bem-vindo ao repositório do meu portfólio pessoal. Este é um espaço onde apresento minhas habilidades, projetos e um pouco sobre minha jornada como estudante de Ciência da Computação e desenvolvedor web.
 
-**[➡️ Visite o site ao vivo](https://brenoh1810.github.io/Portifolio/)** (Sugestão de link, ajuste se necessário)
+**[➡️ Visite o site ao vivo](https://brenoh1810.github.io/portfolio-breno/)**
 
-![Screenshot da página inicial do portfólio](./screenshot.png) 
-*Sugestão: Adicione um screenshot do seu site com o nome `screenshot.png` na raiz do projeto.*
+
 
 ---
 
@@ -50,12 +49,12 @@ Se você deseja executar este projeto em sua máquina local, siga os passos abai
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/Brenoh1810/Portifolio.git
+    git clone https://github.com/Brenoh1810/portfolio-breno.git
     ```
 
 2.  **Navegue até o diretório do projeto:**
     ```bash
-    cd Portifolio
+    cd portfolio-breno
     ```
 
 3.  **Abra o arquivo `index.html` no seu navegador:**
