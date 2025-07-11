@@ -1,93 +1,121 @@
 <!DOCTYPE html>
-<html lang="pt-BR" class="scroll-smooth">
+<html lang="pt-BR" class="no-scrollbar">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Breno Henrique | Front-End Dev</title>
-  <link rel="stylesheet" href="./Src/Styles/style.css" />
+  <title>Breno | Portfólio</title>
+  <link rel="stylesheet" href="./src/styles/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet" />
 </head>
+
 <body>
   <header>
-    <div class="container header-container">
-      <h1 class="logo"><a href="#inicio" class="nav-link" title="Voltar ao topo">Breno.dev</a></h1>
-      <nav class="nav">
-        <a href="#sobre" class="nav-link">Sobre</a>
-        <a href="#projetos" class="nav-link">Projetos</a>
-        <a href="#projetos-cursos" class="nav-link">Projetos de Cursos</a>
-        <a href="#contato" class="nav-link">Contato</a>
-      </nav>
-    </div>
+    <nav>
+      <div class="logo">Breno.dev</div>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <section id="inicio" class="hero container">
-    <div>
-      <h2 class="hero-title">Olá, sou Breno Henrique</h2>
-      <p class="hero-subtitle">Desenvolvedor Front-End focado em criar interfaces modernas, acessíveis e eficientes.</p>
+  <main>
+    <!-- Hero -->
+   <section id="inicio" class="section hero">
+    <div class="hero-content">
+        <h1 class="hero-title">Olá, eu sou o Breno</h1>
+        <p class="hero-subtitle">Crio experiências digitais com código, criatividade e curiosidade.</p>
+        <a href="#projetos" class="cta pulse">Ver Projetos</a>
     </div>
-  </section>
+    </section>
 
-  <section id="sobre" class="sobre container">
-    <h3 class="section-title">Sobre mim</h3>
-    <p class="section-text">Sou estudante de Ciência da Computação e apaixonado por desenvolvimento web. Atualmente estudo HTML, CSS, JavaScript e frameworks modernos como React. Gosto de criar experiências simples, mas impactantes para o usuário.</p>
-  </section>
 
-  <section id="projetos" class="projetos container">
-    <h3 class="section-title">Projetos</h3>
-    <div class="grid grid-2">
-      <a href="https://brenoh1810.github.io/qr-code-front-end-mentor/" target="_blank" class="card-link">
-        <div class="card">
-          <h4 class="card-title">Qr code Front-End Mentor</h4>
-          <p class="card-text">Projeto na plataforma Front-End Mentor focado no CSS</p>
-        </div>
-      </a>
-    </div>
-  </section>
+    <!-- Sobre -->
+    <section id="sobre" class="section">
+      <h2>Sobre mim</h2>
+      <p>Sou estudante de Ciência da Computação e apaixonado por desenvolvimento web...</p>
+      <ul class="skills">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Git/GitHub</li>
+      </ul>
+    </section>
 
-  <section id="projetos-cursos" class="projetos-cursos container">
-    <h3 class="section-title">Projetos Realizados em Cursos</h3>
-    <div class="grid grid-2">
-      <a href="https://brenoh1810.github.io/Clone-wikipedia/" target="_blank" class="card-link">
-        <div class="card">
-          <h4 class="card-title">Clone da Wikipedia</h4>
-          <p class="card-text">Projeto desenvolvido durante curso de HTML e CSS na DIO, focado na estruturação semântica.</p>
-        </div>
-      </a>
-      <a href="https://brenoh1810.github.io/Detona-Ralph/" target="_blank" class="card-link">
-        <div class="card">
-          <h4 class="card-title">Jogo detona ralph DIO</h4>
-          <p class="card-text">Projeto prático para entender Lógica, usando HTML,CSS e JS.</p>
-        </div>
-      </a>
-      <a href="https://brenoh1810.github.io/start-week-macbook-page/" target="_blank" class="card-link">
-        <div class="card">
-          <h4 class="card-title">Clone do site MacBook Air</h4>
-          <p class="card-text">Projeto desenvolvido durante a Start Week, com o objetivo de colocar em prática habilidades de HTML, CSS e JavaScript Vanilla, recriando a interface da página oficial do MacBook Air.</p>
-        </div>
-      </a>
-      <a href="https://brenoh1810.github.io/Desafio-jogo-da-memoria-de-emojis/" target="_blank" class="card-link">
-        <div class="card">
-          <h4 class="card-title">Jogo da memoria DIO</h4>
-          <p class="card-text">Projeto prático para entender a lógica aplicada com Javascript</p>
-        </div>
-      </a>
-    </div>
-  </section>
+    <!-- Projetos -->
+    <section id="projetos" class="section">
+      <h2>Projetos</h2>
+      <div class="projetos-grid">
+        <a href="https://brenoh1810.github.io/Clone-Discord/" target="_blank" rel="noopener noreferrer" class="card">
+          <h3 class="card-title">Clone da Interface do Discord</h3>
+          <p class="card-text">Recriação da interface do Discord para aprimorar habilidades de layout com Flexbox e Grid.</p>
+          <div class="card-tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+          </div>
+        </a>
+        <a href="https://brenoh1810.github.io/Desafio-jogo-da-memoria-de-emojis/" target="_blank" rel="noopener noreferrer" class="card">
+          <h3 class="card-title">Jogo da Memória de Emojis</h3>
+          <p class="card-text">Um jogo da memória interativo construído com JavaScript para manipulação da lógica e eventos do DOM.</p>
+          <div class="card-tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </a>
+        <a href="https://brenoh1810.github.io/Detona-Ralph/" target="_blank" rel="noopener noreferrer" class="card">
+          <h3 class="card-title">Jogo Detona Ralph</h3>
+          <p class="card-text">Mini-game "Whac-A-Mole" para praticar a manipulação de elementos e eventos com JavaScript.</p>
+          <div class="card-tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </a>
+        <a href="https://brenoh1810.github.io/start-week-macbook-page/" target="_blank" rel="noopener noreferrer" class="card">
+          <h3 class="card-title">Landing Page MacBook</h3>
+          <p class="card-text">Uma landing page de produto para o MacBook, focada em design e layout responsivo.</p>
+          <div class="card-tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+          </div>
+        </a>
+        <a href="https://brenoh1810.github.io/qr-code-front-end-mentor/" target="_blank" rel="noopener noreferrer" class="card">
+          <h3 class="card-title">Componente de QR Code</h3>
+          <p class="card-text">Um componente de card com QR Code. Desafio clássico do Frontend Mentor para treinar layout e responsividade.</p>
+          <div class="card-tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+          </div>
+        </a>
+        <a href="https://brenoh1810.github.io/Clone-wikipedia/" target="_blank" rel="noopener noreferrer" class="card">
+          <h3 class="card-title">Clone da Página da Wikipédia</h3>
+          <p class="card-text">Recriação da página da Wikipédia para praticar a estruturação de conteúdo complexo.</p>
+          <div class="card-tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+          </div>
+        </a>
+      </div>
+    </section>
 
-  <section id="contato" class="contato container text-center">
-    <h3 class="section-title">Entre em contato</h3>
-    <p class="section-text">
-      Você pode me encontrar no 
-      <strong><a href="https://www.linkedin.com/in/breno-henrique-barbosa-correia/" target="_blank" class="link-underline">LinkedIn</a></strong>, 
-      no <strong><a href="https://github.com/Brenoh1810" target="_blank" class="link-underline">GitHub</a></strong>  
-      ou enviar um e-mail para <strong>brenoh18102@gmail.com</strong>
-    </p>
-  </section>
+    <!-- Contato -->
+    <section id="contato" class="section contato">
+  <h2>Vamos conversar?</h2>
+  <p>
+    Você pode me chamar por e-mail em
+    <a href="mailto:brenoh18102@gmail.com" class="link">brenoh18102@gmail.com</a>,
+    no <a href="https://www.linkedin.com/in/breno-henrique-barbosa-correia/" target="_blank" class="link">LinkedIn</a>
+    ou visitar meu <a href="https://github.com/Brenoh1810" target="_blank" class="link">GitHub</a>.
+  </p>
+</section>
 
-  <footer class="footer text-center">
-    © 2025 Breno Henrique. Todos os direitos reservados.
+  </main>
+
+  <footer>
+    <p>Feito por Breno — 2025</p>
   </footer>
 
-  <script src="./Src/Scripts/script.js"></script>
-  
+  <script src="./src/js/script.js"></script>
 </body>
 </html>
